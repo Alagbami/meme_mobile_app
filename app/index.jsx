@@ -37,8 +37,7 @@ const Welcome = () => {
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Discover funniest{"\n"}
-              Videos with{" "}
-              <Text className="text-secondary-200">Meme Fun App</Text>
+              Videos with <Text className="text-green-500">Meme Fun App</Text>
             </Text>
 
             <Image

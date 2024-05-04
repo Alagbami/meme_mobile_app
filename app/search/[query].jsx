@@ -33,7 +33,7 @@ const Search = () => {
           <>
             <View className="flex my-6 px-4">
               <Text className="font-pmedium text-gray-100 text-sm">
-                Search Results
+                Your Search Results
               </Text>
               <Text className="text-2xl font-psemibold text-white mt-1">
                 {query}
@@ -47,8 +47,8 @@ const Search = () => {
         )}
         ListEmptyComponent={() => (
           <EmptyState
-            title="No Videos Found"
-            subtitle="No videos found for this search query"
+            title="No Meme Videos Found"
+            subtitle="No Meme videos found for this search title"
           />
         )}
       />
